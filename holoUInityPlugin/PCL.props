@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>$(PCL_ROOT)\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(PCL_ROOT)\include\pcl-1.8;$(PCL_ROOT)\3rdParty\Eigen\eigen3;$(PCL_ROOT)\3rdParty\Boost\include\boost-1_64;$(PCL_ROOT)\3rdParty\FLANN\include;$(PCL_ROOT)\3rdParty\Qhull\include;$(PCL_ROOT)\3rdParty\VTK\include\vtk-8.0;$(PCL_ROOT)\3rdParty\Boost\include\boost-1_64\include;$(OPENNI2_INCLUDE64);$(XN_NITE_INSTALL_PATH)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(PCL_ROOT)\3rdParty\Boost\lib;$(PCL_ROOT)\3rdParty\FLANN\lib;$(PCL_ROOT)\3rdParty\Qhull\lib;$(PCL_ROOT)\3rdParty\VTK\lib;$(PCL_ROOT)\lib;$(OPENNI2_LIB64);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Program Files\PCL 1.8.1\3rdParty\VTK\lib\*8.0.lib";"C:\Program Files\PCL 1.8.1\3rdParty\Boost\lib\*-1_64.lib";"C:\Program Files\PCL 1.8.1\3rdParty\FLANN\lib\*.lib";"C:\Program Files\PCL 1.8.1\lib\*_release.lib";"C:\Program Files\PCL 1.8.1\lib\pcl_kdtree_release.lib";"C:\Program Files\PCL 1.8.1\lib\pcl_search_release.lib";%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

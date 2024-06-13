@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoloUInityPlugin", "pclUInityPlugin.vcxproj", "{6AC5BFC7-8D30-4E97-AEE7-D735C3C6A35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		ReleaseDebug|x64 = ReleaseDebug|x64
+		ReleaseEXE|x64 = ReleaseEXE|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AC5BFC7-8D30-4E97-AEE7-D735C3C6A35A}.Release|x64.ActiveCfg = Release|x64
+		{6AC5BFC7-8D30-4E97-AEE7-D735C3C6A35A}.Release|x64.Build.0 = Release|x64
+		{6AC5BFC7-8D30-4E97-AEE7-D735C3C6A35A}.ReleaseDebug|x64.ActiveCfg = ReleaseDebug|x64
+		{6AC5BFC7-8D30-4E97-AEE7-D735C3C6A35A}.ReleaseDebug|x64.Build.0 = ReleaseDebug|x64
+		{6AC5BFC7-8D30-4E97-AEE7-D735C3C6A35A}.ReleaseEXE|x64.ActiveCfg = ReleaseEXE|x64
+		{6AC5BFC7-8D30-4E97-AEE7-D735C3C6A35A}.ReleaseEXE|x64.Build.0 = ReleaseEXE|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1B295DD-FAF8-410B-8464-F856F4A9486B}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
